@@ -1,0 +1,22 @@
+Hey guys,
+So yesterday I was working on implementing the Jacobian and then ended up making a lot of edits to the code (with the help of Ben Sattleberg...he was great)
+
+The biggest improvement was removing the plotting from the seir_parameter_fit.m file
+It seems that it was generating a plot for every iteration of fminsearch and thus made our code quite a bit slower than it needed to be.
+
+Thus, I made a new function called GraphIt which is basically our old seir_parameter_fit file, but since we only call it after we have minimized our parameter fits, it runs much faster. 
+
+After this I did a bunch of cleaning....I made a uniform manner in which to order our variables which is as follows: alpha, beta1, beta2, beta3, delta, gamma1, psi, gamma, rho1, rho2, omega
+
+
+Everything should appear much neater now...I have also moved our system to a seperate file called SEIHRRR just to make everything cleaner. 
+
+With all these edits, the program can now run in 7 seconds (before it was about 2-3 minutes).
+However, we are still getting negative parameter values even when calling the jacobian.
+Furthermore, the program actually runs slower (38 s) when we use the jacobian....I'm not sure why this is....however, when using the jacobian we do get a better looking fit....
+
+I can explain anything else later!
+Chelsea
+
+
+

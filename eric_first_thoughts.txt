@@ -1,0 +1,80 @@
+http://www.cdc.gov/vhf/ebola/transmission/human-transmission.html
+
+"During an Ebola outbreak in 1995 in Kikwit, Democratic Republic of the Congo,
+28 (16%) of the 173 household contacts of 27 primary Ebola cases developed EVD.3
+All 28 secondary cases involved direct physical contact with a known EVD
+patient; overall, 28 of 95 family members who had direct contact with a primary
+case became infected, whereas none of 78 family members who did not report
+direct contact became infected. In the 1995 Ebola outbreak in Kikwit, among
+those with direct contact, exposure to body fluids conferred additional risk
+(relative risk = 3.6) consistent with the importance of direct contact with the
+blood or other body fluids of infected patients in propagating EVD
+transmission.3 After adjusting for direct contact and exposure to body fluids,
+adult family members who touched a deceased EVD patient (relative risk = 2.1)
+and who were exposed during the late hospital phase were at additional risk.3"
+
+
+Relevant papers:
+
+    Dowell SF, Mukunu R, Ksiazek TG, Khan AS, Rollin PE, Peters CJ. Transmission
+    of Ebola hemorrhagic fever: a study of risk factors in family members,
+    Kikwit, Democratic Republic of the Congo, 1995. Commission de Lutte contre
+    les Epidemies a Kikwit. The Journal of Infectious Diseases. Feb 1999;179
+    Suppl 1:S87-91.
+   
+
+General thoughts:
+    
+    First, find the probability of infection from an infected patient to an
+    uninfected person, possibly with the following?: 
+    
+        (number of new infections)=(number of old infected people)*(average
+        number of people who interact with infected patient per
+        day)*(probability of infection)
+        
+    Basically this is a kTV type of interaction (like from HIV). However, I
+    think we can fit the probability of infection from past and present
+    ebola data. We should read some relevant papers and see if we can find
+    some solid infection rate data (or a model that has already fitted all
+    of the constants, and has legitimate justifications!).
+
+    We are certainly concerned with the spatial dynamics of the ebola virus
+    (i.e. with the spread geographically of the virus, rather than concerned
+    with the in-vivo dynamics of the virus). Are we interested in adding some
+    in-vivo dynamics to our model? These dynamics would potentially be useful,
+    as we could gauge a person's infectedness by the viral count of RNA copies
+    of ebola virus per ml. These dynamics have probably already been studied,
+    too. However, this addition may make our model too complex.
+
+
+Dynamics and control of Ebola in Liberia (Lewnard, Mbah, others):
+    
+    Figure 1 has a cool plot of their model that they fitted to cases and deaths
+    caused by ebola. They use a 95% confidence range, and fit to n-2 points and
+    then extrapolate for 2 points and compare to the actual values.
+
+    They have a table of possible interventions, with how they affect the
+    parameters.
+
+    "Bayesian Markov Chain Monte Carlo sampling for model calibration"
+
+    They outline their model (not in math, though) in Methods->Model outline. We
+    could interpret their model as math, and then fit the data they use, and
+    compare our plot to theirs? (This would add credibility to our model)
+
+Early epidemic dynamics with two-parameter model (Fisman, Khoo, Tuite):
+
+    Reproductive number between 1.6 and 2
+
+    All of these papers have funding statements! Weird, I've never seen those
+    before.
+
+    github.com/cmrivers/ebola has public data repository!
+    Oh man- I copied that github into our Dropbox, and it's tons of data!
+
+    They have a sensitivity analysis we could use
+
+    Other useful githubs:
+    https://github.com/muxspace/ebola.sitrep
+    https://github.com/jeremybmerrill/ebola_parsers
+

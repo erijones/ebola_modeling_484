@@ -1,0 +1,73 @@
+Dynamics and control of Ebola virus transmission in
+Montserrado, Liberia: a mathematical modelling analysis
+Potentially useful parameters:
+Basic reproductive number for EVD = 2.49 (# of EVD cases caused by an individual infected
+with Ebola in an otherwise susceptible population without any public health or clinical
+interventions)
+Things to consider doing for our model:
+See how the time at which the treatment  center is placed affects the containment
+of the disease.
+Have multiple parameters for rate of infection, i.e. infected people can infect other
+people at a certain rate if not in treatment center, but a different, smaller rate, when in 
+treatment center.
+For spatial considerations, should we consider differences in things such as population 
+density as well as differences in health care, i.e. clean water and proper burials.
+
+
+Early Epidemic Dynamics of the West African
+2014 Ebola Outbreak: Estimates Derived with a
+Simple Two-Parameter Model
+This model does not seem to the one we would like to use as a starting point for our model.
+We should probably do something a little more in depth than a two parameter model.
+Interesting facts from this paper:
+This outbreak has been so bad because it has primarily occurred in larger cities.
+They went with a time scale of about 15 days, the time of latently and actively infected 
+Ebola in one person.
+
+
+Emerging Disease Dynamics
+The Case of Ebola
+This paper suggests that the basic reproductive number for Ebola could be modeled as a
+function of the susceptible population. This is probably not the model we want to base our
+model off of.
+
+
+Transmission dynamics and control of Ebola virus
+disease (EVD): a review
+This article has good numbers for R0, as well. I have noticed that all articles have some
+value R0, and they vary widely, so we will need to look into which of these values, if any
+will fit our model/ data. 
+This article seems to have a fairly simple model with the aspects we would like to look
+at, so it would be a good place to start developing our model. 
+
+
+Transmission dynamics and control of Ebola virus
+disease outbreak in Nigeria, July to September 2014
+This seems to have a model close to what we want to start with. One interesting note was
+that 11 of the 20 cases in Nigeria were healthcare workers. It may be important to make a
+part of our model; the rate of infection is higher for healthcare givers, but in the 
+countries we are looking at, I have read in other articles that many people do not seek 
+medical treatment, so it is family members who are giving care and are most at risk. I 
+don't know how this would look in our model, but it is a potential parameter to consider.
+This article claims that for the disease to be stopped, we must reduce the basic 
+reproductive number to something below 1. This might be an easier indication in our model
+to try to reach rather than some percent of people receiving care at a treatment center.
+EVD fatality rate in Sierra Leon, Liberia, Guinea is estimated to be around 70%.
+
+
+Understanding the dynamics of Ebola epidemics
+There is little to no asymptomatic carriers.
+This model includes hospitalized Ebola patients as well as dead Ebola victims who have yet
+to be buried. The removed category is both recovered and buried. 
+This model includes intervention features, which we are not considering, however some of
+the concepts used with this might be useful, i.e. "Interventions were completely efficient
+after the date indicated in Table 3 and not efficient at all before this date." would be
+a useful way to consider adding a treatment center. It is not at all efficient before it
+is built, but then to some degree effective after it is built.
+This model contains several good assumptions that I think we should use (on page 5) like
+all transmissions are human-to-human etc. 
+This article has decent parameters for the transmission rate for community, hospital, dead,
+etc. that would be a good place to start looking for parameters for our model (page 6).
+If we want to use an existing model to work off of, this model is likely the best. It seems
+to include the information we want and be fairly simple. We would likely adjust it some
+to fit the issues we are addressing, but it is a good place to start.

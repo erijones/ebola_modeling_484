@@ -1,0 +1,14 @@
+\beamer@endinputifotherversion {3.33pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Introduction}{1}{0}{1}
+\beamer@sectionintoc {2}{The Model}{3}{0}{2}
+\beamer@subsectionintoc {2}{1}{Model Assumptions}{3}{0}{2}
+\beamer@subsectionintoc {2}{2}{Variable Definitions}{3}{0}{2}
+\beamer@subsectionintoc {2}{3}{State Diagram}{3}{0}{2}
+\beamer@subsectionintoc {2}{4}{The Model}{5}{0}{2}
+\beamer@sectionintoc {3}{Simulations}{6}{0}{3}
+\beamer@subsectionintoc {3}{1}{Speed Test}{6}{0}{3}
+\beamer@subsectionintoc {3}{2}{Accuracy Analysis}{7}{0}{3}
+\beamer@subsectionintoc {3}{3}{Model Simulation}{9}{0}{3}
+\beamer@subsectionintoc {3}{4}{Sensitivity in the Inverse Problem}{10}{0}{3}
+\beamer@subsectionintoc {3}{5}{MCMC}{11}{0}{3}

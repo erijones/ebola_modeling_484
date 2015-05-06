@@ -1,0 +1,19 @@
+Understanding the Dynamics of Ebola Epidemics
+-average Incubation period 1-2 weeks
+-death after an average of 10 days in 50-90% of infections
+-transmitabillity increases with duration of disease
+-Lots of statistical analysis (Maximum Likelihood estimators, CI's]
+-Stoichastic compartmental model
+-Weekly Incidences Poission distributed 
+
+Dynamics and Control of Ebol virus transmission in Montserrado, Liberia
+-Epidemic is increasing most rapidly in Liberia who are at a socioeconomic disadvantage to the other two countries
+-overcrowded Urban areas can present an exceptionally high risk for disease transmission
+-model assumes individuals who die recieve sanitary burials which prevent transmission after death
+-"The assumption that daily reported cases accurately represens  the number of individuals entering the 
+infectious class, without taking into acocunt under-reporting or delays in reporting" lead to underestimation
+
+Early Epidemic Dynamics
+-Incidence decay with exponential adjustment model to evaluate epidemic dynamics
+-Agreement between IDEA model and SIR when R0 is low or moderate 
+-given functional form

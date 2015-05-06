@@ -1,0 +1,30 @@
+Meeting with Professor Pankavich
+
+-Our matlab code makes some sense
+	
+-Is our initial guess for k valid? Our original guess might effect 
+	
+our fit
+	
+-We should probably NOT treat beta as 0 as we have been doing
+	
+-We are not quite using the 'log-fit' correctly
+		
+-We should take the log of all populations
+			
+-i.e. s~=log(s)...etc
+			
+-compute differential equations your ~ functions satisfy
+- Our modified model should probably be made simpler
+- Still only have one removed population, and create an interaction term between the 
+  removed population and the susceptible population with a coefficient that takes into 
+  account the amount that are not buried as well as the infection rate
+-Plan to have a phone conference with Sarah (I think that is her name) in the 
+upcoming week
+	
+-We should be devising some questions to ask her regarding the project
+	
+-Professor Pankavich is setting up a date and time
+
+
+ 
